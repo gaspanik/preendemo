@@ -1,0 +1,23 @@
+{
+  "name": "preendemo",
+  "version": "0.0.1",
+  "authors": [
+    "cipher <gmgateway@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1"
+  },
+  "preen": {
+    "jquery": ["dist/*.js"],
+    "bootstrap": ["dist/**/*"]
+  }
+}
